@@ -1,7 +1,7 @@
-from telegram.ext import Updater, InlineQueryHandler, CommandHandler, CallbackContext
+from telegram.ext import Updater, CommandHandler, CallbackContext
 import requests
-from telegram import Update, Bot
-import re
+from telegram import Update
+
 
 
 def get_url():
